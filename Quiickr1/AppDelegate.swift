@@ -13,10 +13,20 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var nav_controller: UINavigationController!
+    var welcomeVC: WelcomeViewController!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.welcomeVC = WelcomeViewController()
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.nav_controller = UINavigationController()
+        self.nav_controller.isNavigationBarHidden = true
+        self.nav_controller.viewControllers = [self.welcomeVC]
+        self.window?.rootViewController = nav_controller
+        self.window?.makeKeyAndVisible()
         return true
     }
 

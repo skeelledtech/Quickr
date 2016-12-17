@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5E2F9E2F1DB2D008005AC31F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9E2E1DB2D008005AC31F /* AppDelegate.swift */; };
-		5E2F9E311DB2D008005AC31F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9E301DB2D008005AC31F /* ViewController.swift */; };
 		5E2F9E341DB2D008005AC31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F9E321DB2D008005AC31F /* Main.storyboard */; };
 		5E2F9E371DB2D008005AC31F /* Quiickr1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9E351DB2D008005AC31F /* Quiickr1.xcdatamodeld */; };
 		5E2F9E391DB2D008005AC31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F9E381DB2D008005AC31F /* Assets.xcassets */; };
 		5E2F9E3C1DB2D008005AC31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F9E3A1DB2D008005AC31F /* LaunchScreen.storyboard */; };
 		5E2F9E471DB2D009005AC31F /* Quiickr1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9E461DB2D009005AC31F /* Quiickr1Tests.swift */; };
 		5E2F9E521DB2D009005AC31F /* Quiickr1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9E511DB2D009005AC31F /* Quiickr1UITests.swift */; };
+		5E5F37511E04BA9C00AEFA37 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F37501E04BA9C00AEFA37 /* Customer.swift */; };
+		5E64348B1DFF4A78001BF208 /* UserLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64348A1DFF4A78001BF208 /* UserLogInViewController.swift */; };
+		5E8593D81DE3BBD7008853E9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8593D71DE3BBD7008853E9 /* WelcomeViewController.swift */; };
+		5E8593DF1DF10115008853E9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8593DE1DF10115008853E9 /* SignUpViewController.swift */; };
+		5E8593E11DF23C13008853E9 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8593E01DF23C13008853E9 /* ExploreViewController.swift */; };
+		5EB9FE171DF51DD700A8B9FE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9FE161DF51DD700A8B9FE /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		5E2F9E2B1DB2D008005AC31F /* Quiickr1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiickr1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2F9E2E1DB2D008005AC31F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E2F9E301DB2D008005AC31F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E2F9E331DB2D008005AC31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E2F9E361DB2D008005AC31F /* Quiickr1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quiickr1.xcdatamodel; sourceTree = "<group>"; };
 		5E2F9E381DB2D008005AC31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		5E2F9E4D1DB2D009005AC31F /* Quiickr1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quiickr1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2F9E511DB2D009005AC31F /* Quiickr1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiickr1UITests.swift; sourceTree = "<group>"; };
 		5E2F9E531DB2D009005AC31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5F37501E04BA9C00AEFA37 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		5E64348A1DFF4A78001BF208 /* UserLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = UserLogInViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5E8593D71DE3BBD7008853E9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5E8593DE1DF10115008853E9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SignUpViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5E8593E01DF23C13008853E9 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		5EB9FE161DF51DD700A8B9FE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,18 @@
 			isa = PBXGroup;
 			children = (
 				5E2F9E2E1DB2D008005AC31F /* AppDelegate.swift */,
-				5E2F9E301DB2D008005AC31F /* ViewController.swift */,
-				5E2F9E321DB2D008005AC31F /* Main.storyboard */,
+				5E8593DC1DE3BCAC008853E9 /* User Data Model */,
+				5E8593D91DE3BC07008853E9 /* Login */,
+				5EB9FE151DF51D6600A8B9FE /* SignIn */,
+				5E8593DA1DE3BC26008853E9 /* SignUp */,
+				5E8593DB1DE3BC52008853E9 /* Explore */,
+				5EB9FE141DF5170300A8B9FE /* Categories */,
+				5EB9FE131DF516E000A8B9FE /* Stores */,
 				5E2F9E381DB2D008005AC31F /* Assets.xcassets */,
 				5E2F9E3A1DB2D008005AC31F /* LaunchScreen.storyboard */,
 				5E2F9E3D1DB2D008005AC31F /* Info.plist */,
 				5E2F9E351DB2D008005AC31F /* Quiickr1.xcdatamodeld */,
+				5E2F9E321DB2D008005AC31F /* Main.storyboard */,
 			);
 			path = Quiickr1;
 			sourceTree = "<group>";
@@ -126,6 +142,69 @@
 				5E2F9E531DB2D009005AC31F /* Info.plist */,
 			);
 			path = Quiickr1UITests;
+			sourceTree = "<group>";
+		};
+		5E6434891DFF4A5B001BF208 /* UserLogIn */ = {
+			isa = PBXGroup;
+			children = (
+				5E64348A1DFF4A78001BF208 /* UserLogInViewController.swift */,
+			);
+			name = UserLogIn;
+			sourceTree = "<group>";
+		};
+		5E8593D91DE3BC07008853E9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5E8593D71DE3BBD7008853E9 /* WelcomeViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		5E8593DA1DE3BC26008853E9 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5E6434891DFF4A5B001BF208 /* UserLogIn */,
+				5E8593DE1DF10115008853E9 /* SignUpViewController.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		5E8593DB1DE3BC52008853E9 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				5E8593E01DF23C13008853E9 /* ExploreViewController.swift */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		5E8593DC1DE3BCAC008853E9 /* User Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F37501E04BA9C00AEFA37 /* Customer.swift */,
+			);
+			name = "User Data Model";
+			sourceTree = "<group>";
+		};
+		5EB9FE131DF516E000A8B9FE /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		5EB9FE141DF5170300A8B9FE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		5EB9FE151DF51D6600A8B9FE /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9FE161DF51DD700A8B9FE /* SignInViewController.swift */,
+			);
+			name = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = skeelledtech;
 				TargetAttributes = {
 					5E2F9E2A1DB2D008005AC31F = {
@@ -262,8 +341,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2F9E311DB2D008005AC31F /* ViewController.swift in Sources */,
+				5E8593D81DE3BBD7008853E9 /* WelcomeViewController.swift in Sources */,
 				5E2F9E371DB2D008005AC31F /* Quiickr1.xcdatamodeld in Sources */,
+				5EB9FE171DF51DD700A8B9FE /* SignInViewController.swift in Sources */,
+				5E5F37511E04BA9C00AEFA37 /* Customer.swift in Sources */,
+				5E8593E11DF23C13008853E9 /* ExploreViewController.swift in Sources */,
+				5E8593DF1DF10115008853E9 /* SignUpViewController.swift in Sources */,
+				5E64348B1DFF4A78001BF208 /* UserLogInViewController.swift in Sources */,
 				5E2F9E2F1DB2D008005AC31F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +421,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -387,6 +472,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -421,6 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = skeelledtech.Quiickr1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -433,6 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = skeelledtech.Quiickr1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +597,7 @@
 				5E2F9E581DB2D009005AC31F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E2F9E591DB2D009005AC31F /* Build configuration list for PBXNativeTarget "Quiickr1Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +606,7 @@
 				5E2F9E5B1DB2D009005AC31F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E2F9E5C1DB2D009005AC31F /* Build configuration list for PBXNativeTarget "Quiickr1UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +615,7 @@
 				5E2F9E5E1DB2D009005AC31F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
